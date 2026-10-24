@@ -1,0 +1,471 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="1216" viewBox="0 0 920 1216" role="img" aria-labelledby="title desc">
+<title id="title">SMAWK row minima: 12 by 18</title>
+<desc id="desc">Heatmap of matrix values. Dots mark evaluated cells; green outlines mark leftmost minima. Recursion panels show depth-local column elimination and selected rows.</desc>
+<rect width="100%" height="100%" fill="#0f172a"/>
+<style>text{font-family:Consolas,monospace;fill:#e2e8f0;font-size:12px} .heading{font-size:24px;font-weight:bold} .small{font-size:11px}</style>
+<text x="28" y="38" class="heading">SMAWK / ROW MINIMA</text>
+<text x="28" y="65">12 rows x 18 columns | 101 evaluations | 48 comparisons | depth 4</text>
+<text x="28" y="89">Dot: evaluated (tooltip: visits) | Green outline: leftmost minimum</text>
+<text x="28" y="111">Heat: low = dark, high = light | Background rendering: 216 separate evaluations</text>
+<text x="77" y="147" text-anchor="middle">0</text>
+<text x="111" y="147" text-anchor="middle">1</text>
+<text x="145" y="147" text-anchor="middle">2</text>
+<text x="179" y="147" text-anchor="middle">3</text>
+<text x="213" y="147" text-anchor="middle">4</text>
+<text x="247" y="147" text-anchor="middle">5</text>
+<text x="281" y="147" text-anchor="middle">6</text>
+<text x="315" y="147" text-anchor="middle">7</text>
+<text x="349" y="147" text-anchor="middle">8</text>
+<text x="383" y="147" text-anchor="middle">9</text>
+<text x="417" y="147" text-anchor="middle">10</text>
+<text x="451" y="147" text-anchor="middle">11</text>
+<text x="485" y="147" text-anchor="middle">12</text>
+<text x="519" y="147" text-anchor="middle">13</text>
+<text x="553" y="147" text-anchor="middle">14</text>
+<text x="587" y="147" text-anchor="middle">15</text>
+<text x="621" y="147" text-anchor="middle">16</text>
+<text x="655" y="147" text-anchor="middle">17</text>
+<text x="42" y="179" text-anchor="end">0</text>
+<rect x="60" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,25.7%)"><title>row 0, column 0: -45; evaluations 1</title></rect>
+<circle cx="76" cy="173" r="4" fill="#f8fafc"/>
+<rect x="94" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,25.1%)"><title>row 0, column 1: -50; evaluations 2</title></rect>
+<circle cx="110" cy="173" r="4" fill="#f8fafc"/>
+<rect x="128" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,23.5%)"><title>row 0, column 2: -63; evaluations 5</title></rect>
+<circle cx="144" cy="173" r="4" fill="#f8fafc"/>
+<rect x="128" y="157" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="162" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,28.2%)"><title>row 0, column 3: -25; evaluations 1</title></rect>
+<circle cx="178" cy="173" r="4" fill="#f8fafc"/>
+<rect x="196" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,36.2%)"><title>row 0, column 4: 40; evaluations 0</title></rect>
+<rect x="230" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,28.3%)"><title>row 0, column 5: -24; evaluations 1</title></rect>
+<circle cx="246" cy="173" r="4" fill="#f8fafc"/>
+<rect x="264" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,26.5%)"><title>row 0, column 6: -39; evaluations 1</title></rect>
+<circle cx="280" cy="173" r="4" fill="#f8fafc"/>
+<rect x="298" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,32.6%)"><title>row 0, column 7: 11; evaluations 0</title></rect>
+<rect x="332" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,33.6%)"><title>row 0, column 8: 19; evaluations 0</title></rect>
+<rect x="366" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,44.4%)"><title>row 0, column 9: 106; evaluations 0</title></rect>
+<rect x="400" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,34.5%)"><title>row 0, column 10: 26; evaluations 0</title></rect>
+<rect x="434" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,37.3%)"><title>row 0, column 11: 49; evaluations 0</title></rect>
+<rect x="468" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,41.4%)"><title>row 0, column 12: 82; evaluations 0</title></rect>
+<rect x="502" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,42.9%)"><title>row 0, column 13: 94; evaluations 0</title></rect>
+<rect x="536" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,66.4%)"><title>row 0, column 14: 284; evaluations 0</title></rect>
+<rect x="570" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,51.1%)"><title>row 0, column 15: 160; evaluations 0</title></rect>
+<rect x="604" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,53.8%)"><title>row 0, column 16: 182; evaluations 0</title></rect>
+<rect x="638" y="157" width="32" height="32" rx="3" fill="hsl(215,55%,68.0%)"><title>row 0, column 17: 297; evaluations 0</title></rect>
+<text x="42" y="213" text-anchor="end">1</text>
+<rect x="60" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,25.8%)"><title>row 1, column 0: -44; evaluations 0</title></rect>
+<rect x="94" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,25.0%)"><title>row 1, column 1: -51; evaluations 0</title></rect>
+<rect x="128" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,23.1%)"><title>row 1, column 2: -66; evaluations 2</title></rect>
+<circle cx="144" cy="207" r="4" fill="#f8fafc"/>
+<rect x="128" y="191" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="162" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,27.6%)"><title>row 1, column 3: -30; evaluations 2</title></rect>
+<circle cx="178" cy="207" r="4" fill="#f8fafc"/>
+<rect x="196" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,35.4%)"><title>row 1, column 4: 33; evaluations 1</title></rect>
+<circle cx="212" cy="207" r="4" fill="#f8fafc"/>
+<rect x="230" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,27.2%)"><title>row 1, column 5: -33; evaluations 2</title></rect>
+<circle cx="246" cy="207" r="4" fill="#f8fafc"/>
+<rect x="264" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,25.1%)"><title>row 1, column 6: -50; evaluations 3</title></rect>
+<circle cx="280" cy="207" r="4" fill="#f8fafc"/>
+<rect x="298" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,31.0%)"><title>row 1, column 7: -2; evaluations 1</title></rect>
+<circle cx="314" cy="207" r="4" fill="#f8fafc"/>
+<rect x="332" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,31.8%)"><title>row 1, column 8: 4; evaluations 0</title></rect>
+<rect x="366" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,42.3%)"><title>row 1, column 9: 89; evaluations 0</title></rect>
+<rect x="400" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,32.1%)"><title>row 1, column 10: 7; evaluations 0</title></rect>
+<rect x="434" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,34.7%)"><title>row 1, column 11: 28; evaluations 0</title></rect>
+<rect x="468" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,38.6%)"><title>row 1, column 12: 59; evaluations 0</title></rect>
+<rect x="502" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,39.8%)"><title>row 1, column 13: 69; evaluations 0</title></rect>
+<rect x="536" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,63.1%)"><title>row 1, column 14: 257; evaluations 0</title></rect>
+<rect x="570" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,47.5%)"><title>row 1, column 15: 131; evaluations 0</title></rect>
+<rect x="604" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,49.9%)"><title>row 1, column 16: 151; evaluations 0</title></rect>
+<rect x="638" y="191" width="32" height="32" rx="3" fill="hsl(215,55%,63.9%)"><title>row 1, column 17: 264; evaluations 0</title></rect>
+<text x="42" y="247" text-anchor="end">2</text>
+<rect x="60" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,26.2%)"><title>row 2, column 0: -41; evaluations 0</title></rect>
+<rect x="94" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,25.1%)"><title>row 2, column 1: -50; evaluations 0</title></rect>
+<rect x="128" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,23.0%)"><title>row 2, column 2: -67; evaluations 1</title></rect>
+<circle cx="144" cy="241" r="4" fill="#f8fafc"/>
+<rect x="128" y="225" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="162" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,27.2%)"><title>row 2, column 3: -33; evaluations 0</title></rect>
+<rect x="196" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,34.7%)"><title>row 2, column 4: 28; evaluations 1</title></rect>
+<circle cx="212" cy="241" r="4" fill="#f8fafc"/>
+<rect x="230" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,26.3%)"><title>row 2, column 5: -40; evaluations 1</title></rect>
+<circle cx="246" cy="241" r="4" fill="#f8fafc"/>
+<rect x="264" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,24.0%)"><title>row 2, column 6: -59; evaluations 0</title></rect>
+<rect x="298" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,29.7%)"><title>row 2, column 7: -13; evaluations 2</title></rect>
+<circle cx="314" cy="241" r="4" fill="#f8fafc"/>
+<rect x="332" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,30.2%)"><title>row 2, column 8: -9; evaluations 1</title></rect>
+<circle cx="348" cy="241" r="4" fill="#f8fafc"/>
+<rect x="366" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,40.4%)"><title>row 2, column 9: 74; evaluations 0</title></rect>
+<rect x="400" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,30.0%)"><title>row 2, column 10: -10; evaluations 1</title></rect>
+<circle cx="416" cy="241" r="4" fill="#f8fafc"/>
+<rect x="434" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,32.4%)"><title>row 2, column 11: 9; evaluations 0</title></rect>
+<rect x="468" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,36.0%)"><title>row 2, column 12: 38; evaluations 0</title></rect>
+<rect x="502" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,37.0%)"><title>row 2, column 13: 46; evaluations 0</title></rect>
+<rect x="536" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,60.0%)"><title>row 2, column 14: 232; evaluations 0</title></rect>
+<rect x="570" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,44.1%)"><title>row 2, column 15: 104; evaluations 0</title></rect>
+<rect x="604" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,46.4%)"><title>row 2, column 16: 122; evaluations 0</title></rect>
+<rect x="638" y="225" width="32" height="32" rx="3" fill="hsl(215,55%,60.1%)"><title>row 2, column 17: 233; evaluations 0</title></rect>
+<text x="42" y="281" text-anchor="end">3</text>
+<rect x="60" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,26.8%)"><title>row 3, column 0: -36; evaluations 0</title></rect>
+<rect x="94" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,25.5%)"><title>row 3, column 1: -47; evaluations 0</title></rect>
+<rect x="128" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,23.1%)"><title>row 3, column 2: -66; evaluations 2</title></rect>
+<circle cx="144" cy="275" r="4" fill="#f8fafc"/>
+<rect x="128" y="259" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="162" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,27.1%)"><title>row 3, column 3: -34; evaluations 0</title></rect>
+<rect x="196" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,34.4%)"><title>row 3, column 4: 25; evaluations 0</title></rect>
+<rect x="230" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,25.7%)"><title>row 3, column 5: -45; evaluations 0</title></rect>
+<rect x="264" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,23.1%)"><title>row 3, column 6: -66; evaluations 4</title></rect>
+<circle cx="280" cy="275" r="4" fill="#f8fafc"/>
+<rect x="298" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,28.6%)"><title>row 3, column 7: -22; evaluations 1</title></rect>
+<circle cx="314" cy="275" r="4" fill="#f8fafc"/>
+<rect x="332" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,28.8%)"><title>row 3, column 8: -20; evaluations 2</title></rect>
+<circle cx="348" cy="275" r="4" fill="#f8fafc"/>
+<rect x="366" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,38.8%)"><title>row 3, column 9: 61; evaluations 1</title></rect>
+<circle cx="382" cy="275" r="4" fill="#f8fafc"/>
+<rect x="400" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,28.2%)"><title>row 3, column 10: -25; evaluations 3</title></rect>
+<circle cx="416" cy="275" r="4" fill="#f8fafc"/>
+<rect x="434" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,30.3%)"><title>row 3, column 11: -8; evaluations 1</title></rect>
+<circle cx="450" cy="275" r="4" fill="#f8fafc"/>
+<rect x="468" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,33.6%)"><title>row 3, column 12: 19; evaluations 0</title></rect>
+<rect x="502" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,34.4%)"><title>row 3, column 13: 25; evaluations 0</title></rect>
+<rect x="536" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,57.1%)"><title>row 3, column 14: 209; evaluations 0</title></rect>
+<rect x="570" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,41.0%)"><title>row 3, column 15: 79; evaluations 0</title></rect>
+<rect x="604" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,43.0%)"><title>row 3, column 16: 95; evaluations 0</title></rect>
+<rect x="638" y="259" width="32" height="32" rx="3" fill="hsl(215,55%,56.5%)"><title>row 3, column 17: 204; evaluations 0</title></rect>
+<text x="42" y="315" text-anchor="end">4</text>
+<rect x="60" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,27.7%)"><title>row 4, column 0: -29; evaluations 0</title></rect>
+<rect x="94" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,26.1%)"><title>row 4, column 1: -42; evaluations 0</title></rect>
+<rect x="128" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,23.5%)"><title>row 4, column 2: -63; evaluations 1</title></rect>
+<circle cx="144" cy="309" r="4" fill="#f8fafc"/>
+<rect x="162" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,27.2%)"><title>row 4, column 3: -33; evaluations 0</title></rect>
+<rect x="196" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,34.2%)"><title>row 4, column 4: 24; evaluations 0</title></rect>
+<rect x="230" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,25.3%)"><title>row 4, column 5: -48; evaluations 0</title></rect>
+<rect x="264" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,22.5%)"><title>row 4, column 6: -71; evaluations 1</title></rect>
+<circle cx="280" cy="309" r="4" fill="#f8fafc"/>
+<rect x="264" y="293" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="298" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,27.7%)"><title>row 4, column 7: -29; evaluations 0</title></rect>
+<rect x="332" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,27.7%)"><title>row 4, column 8: -29; evaluations 0</title></rect>
+<rect x="366" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,37.5%)"><title>row 4, column 9: 50; evaluations 1</title></rect>
+<circle cx="382" cy="309" r="4" fill="#f8fafc"/>
+<rect x="400" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,26.6%)"><title>row 4, column 10: -38; evaluations 1</title></rect>
+<circle cx="416" cy="309" r="4" fill="#f8fafc"/>
+<rect x="434" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,28.4%)"><title>row 4, column 11: -23; evaluations 1</title></rect>
+<circle cx="450" cy="309" r="4" fill="#f8fafc"/>
+<rect x="468" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,31.5%)"><title>row 4, column 12: 2; evaluations 1</title></rect>
+<circle cx="484" cy="309" r="4" fill="#f8fafc"/>
+<rect x="502" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,32.0%)"><title>row 4, column 13: 6; evaluations 0</title></rect>
+<rect x="536" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,54.5%)"><title>row 4, column 14: 188; evaluations 0</title></rect>
+<rect x="570" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,38.2%)"><title>row 4, column 15: 56; evaluations 0</title></rect>
+<rect x="604" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,39.9%)"><title>row 4, column 16: 70; evaluations 0</title></rect>
+<rect x="638" y="293" width="32" height="32" rx="3" fill="hsl(215,55%,53.2%)"><title>row 4, column 17: 177; evaluations 0</title></rect>
+<text x="42" y="349" text-anchor="end">5</text>
+<rect x="60" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,28.8%)"><title>row 5, column 0: -20; evaluations 0</title></rect>
+<rect x="94" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,26.9%)"><title>row 5, column 1: -35; evaluations 0</title></rect>
+<rect x="128" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,24.1%)"><title>row 5, column 2: -58; evaluations 1</title></rect>
+<circle cx="144" cy="343" r="4" fill="#f8fafc"/>
+<rect x="162" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,27.6%)"><title>row 5, column 3: -30; evaluations 0</title></rect>
+<rect x="196" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,34.4%)"><title>row 5, column 4: 25; evaluations 0</title></rect>
+<rect x="230" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,25.2%)"><title>row 5, column 5: -49; evaluations 0</title></rect>
+<rect x="264" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,22.1%)"><title>row 5, column 6: -74; evaluations 1</title></rect>
+<circle cx="280" cy="343" r="4" fill="#f8fafc"/>
+<rect x="264" y="327" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="298" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,27.1%)"><title>row 5, column 7: -34; evaluations 1</title></rect>
+<circle cx="314" cy="343" r="4" fill="#f8fafc"/>
+<rect x="332" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,26.8%)"><title>row 5, column 8: -36; evaluations 0</title></rect>
+<rect x="366" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,36.3%)"><title>row 5, column 9: 41; evaluations 0</title></rect>
+<rect x="400" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,25.2%)"><title>row 5, column 10: -49; evaluations 2</title></rect>
+<circle cx="416" cy="343" r="4" fill="#f8fafc"/>
+<rect x="434" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,26.8%)"><title>row 5, column 11: -36; evaluations 1</title></rect>
+<circle cx="450" cy="343" r="4" fill="#f8fafc"/>
+<rect x="468" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,29.7%)"><title>row 5, column 12: -13; evaluations 1</title></rect>
+<circle cx="484" cy="343" r="4" fill="#f8fafc"/>
+<rect x="502" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,29.9%)"><title>row 5, column 13: -11; evaluations 1</title></rect>
+<circle cx="518" cy="343" r="4" fill="#f8fafc"/>
+<rect x="536" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,52.2%)"><title>row 5, column 14: 169; evaluations 0</title></rect>
+<rect x="570" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,35.6%)"><title>row 5, column 15: 35; evaluations 0</title></rect>
+<rect x="604" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,37.1%)"><title>row 5, column 16: 47; evaluations 0</title></rect>
+<rect x="638" y="327" width="32" height="32" rx="3" fill="hsl(215,55%,50.1%)"><title>row 5, column 17: 152; evaluations 0</title></rect>
+<text x="42" y="383" text-anchor="end">6</text>
+<rect x="60" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,30.2%)"><title>row 6, column 0: -9; evaluations 0</title></rect>
+<rect x="94" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,28.1%)"><title>row 6, column 1: -26; evaluations 0</title></rect>
+<rect x="128" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,25.0%)"><title>row 6, column 2: -51; evaluations 0</title></rect>
+<rect x="162" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,28.2%)"><title>row 6, column 3: -25; evaluations 0</title></rect>
+<rect x="196" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,34.7%)"><title>row 6, column 4: 28; evaluations 0</title></rect>
+<rect x="230" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,25.3%)"><title>row 6, column 5: -48; evaluations 0</title></rect>
+<rect x="264" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,22.0%)"><title>row 6, column 6: -75; evaluations 1</title></rect>
+<circle cx="280" cy="377" r="4" fill="#f8fafc"/>
+<rect x="264" y="361" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="298" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,26.7%)"><title>row 6, column 7: -37; evaluations 0</title></rect>
+<rect x="332" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,26.2%)"><title>row 6, column 8: -41; evaluations 0</title></rect>
+<rect x="366" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,35.5%)"><title>row 6, column 9: 34; evaluations 0</title></rect>
+<rect x="400" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,24.1%)"><title>row 6, column 10: -58; evaluations 0</title></rect>
+<rect x="434" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,25.5%)"><title>row 6, column 11: -47; evaluations 0</title></rect>
+<rect x="468" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,28.1%)"><title>row 6, column 12: -26; evaluations 0</title></rect>
+<rect x="502" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,28.1%)"><title>row 6, column 13: -26; evaluations 2</title></rect>
+<circle cx="518" cy="377" r="4" fill="#f8fafc"/>
+<rect x="536" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,50.1%)"><title>row 6, column 14: 152; evaluations 1</title></rect>
+<circle cx="552" cy="377" r="4" fill="#f8fafc"/>
+<rect x="570" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,33.3%)"><title>row 6, column 15: 16; evaluations 1</title></rect>
+<circle cx="586" cy="377" r="4" fill="#f8fafc"/>
+<rect x="604" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,34.5%)"><title>row 6, column 16: 26; evaluations 0</title></rect>
+<rect x="638" y="361" width="32" height="32" rx="3" fill="hsl(215,55%,47.2%)"><title>row 6, column 17: 129; evaluations 0</title></rect>
+<text x="42" y="417" text-anchor="end">7</text>
+<rect x="60" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,31.8%)"><title>row 7, column 0: 4; evaluations 0</title></rect>
+<rect x="94" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,29.4%)"><title>row 7, column 1: -15; evaluations 0</title></rect>
+<rect x="128" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,26.1%)"><title>row 7, column 2: -42; evaluations 1</title></rect>
+<circle cx="144" cy="411" r="4" fill="#f8fafc"/>
+<rect x="162" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,29.0%)"><title>row 7, column 3: -18; evaluations 0</title></rect>
+<rect x="196" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,35.4%)"><title>row 7, column 4: 33; evaluations 0</title></rect>
+<rect x="230" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,25.7%)"><title>row 7, column 5: -45; evaluations 0</title></rect>
+<rect x="264" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,22.1%)"><title>row 7, column 6: -74; evaluations 4</title></rect>
+<circle cx="280" cy="411" r="4" fill="#f8fafc"/>
+<rect x="264" y="395" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="298" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,26.6%)"><title>row 7, column 7: -38; evaluations 0</title></rect>
+<rect x="332" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,25.8%)"><title>row 7, column 8: -44; evaluations 0</title></rect>
+<rect x="366" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,34.9%)"><title>row 7, column 9: 29; evaluations 0</title></rect>
+<rect x="400" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,23.2%)"><title>row 7, column 10: -65; evaluations 2</title></rect>
+<circle cx="416" cy="411" r="4" fill="#f8fafc"/>
+<rect x="434" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,24.3%)"><title>row 7, column 11: -56; evaluations 2</title></rect>
+<circle cx="450" cy="411" r="4" fill="#f8fafc"/>
+<rect x="468" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,26.7%)"><title>row 7, column 12: -37; evaluations 1</title></rect>
+<circle cx="484" cy="411" r="4" fill="#f8fafc"/>
+<rect x="502" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,26.5%)"><title>row 7, column 13: -39; evaluations 1</title></rect>
+<circle cx="518" cy="411" r="4" fill="#f8fafc"/>
+<rect x="536" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,48.2%)"><title>row 7, column 14: 137; evaluations 1</title></rect>
+<circle cx="552" cy="411" r="4" fill="#f8fafc"/>
+<rect x="570" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,31.2%)"><title>row 7, column 15: -1; evaluations 2</title></rect>
+<circle cx="586" cy="411" r="4" fill="#f8fafc"/>
+<rect x="604" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,32.1%)"><title>row 7, column 16: 7; evaluations 1</title></rect>
+<circle cx="620" cy="411" r="4" fill="#f8fafc"/>
+<rect x="638" y="395" width="32" height="32" rx="3" fill="hsl(215,55%,44.6%)"><title>row 7, column 17: 108; evaluations 0</title></rect>
+<text x="42" y="451" text-anchor="end">8</text>
+<rect x="60" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,33.6%)"><title>row 8, column 0: 19; evaluations 0</title></rect>
+<rect x="94" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,31.0%)"><title>row 8, column 1: -2; evaluations 0</title></rect>
+<rect x="128" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,27.4%)"><title>row 8, column 2: -31; evaluations 0</title></rect>
+<rect x="162" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,30.2%)"><title>row 8, column 3: -9; evaluations 0</title></rect>
+<rect x="196" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,36.2%)"><title>row 8, column 4: 40; evaluations 0</title></rect>
+<rect x="230" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,26.3%)"><title>row 8, column 5: -40; evaluations 0</title></rect>
+<rect x="264" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,22.5%)"><title>row 8, column 6: -71; evaluations 1</title></rect>
+<circle cx="280" cy="445" r="4" fill="#f8fafc"/>
+<rect x="264" y="429" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="298" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,26.7%)"><title>row 8, column 7: -37; evaluations 1</title></rect>
+<circle cx="314" cy="445" r="4" fill="#f8fafc"/>
+<rect x="332" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,25.7%)"><title>row 8, column 8: -45; evaluations 0</title></rect>
+<rect x="366" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,34.5%)"><title>row 8, column 9: 26; evaluations 0</title></rect>
+<rect x="400" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,22.6%)"><title>row 8, column 10: -70; evaluations 1</title></rect>
+<circle cx="416" cy="445" r="4" fill="#f8fafc"/>
+<rect x="434" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,23.5%)"><title>row 8, column 11: -63; evaluations 0</title></rect>
+<rect x="468" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,25.6%)"><title>row 8, column 12: -46; evaluations 0</title></rect>
+<rect x="502" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,25.1%)"><title>row 8, column 13: -50; evaluations 0</title></rect>
+<rect x="536" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,46.6%)"><title>row 8, column 14: 124; evaluations 0</title></rect>
+<rect x="570" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,29.3%)"><title>row 8, column 15: -16; evaluations 0</title></rect>
+<rect x="604" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,30.0%)"><title>row 8, column 16: -10; evaluations 1</title></rect>
+<circle cx="620" cy="445" r="4" fill="#f8fafc"/>
+<rect x="638" y="429" width="32" height="32" rx="3" fill="hsl(215,55%,42.3%)"><title>row 8, column 17: 89; evaluations 1</title></rect>
+<circle cx="654" cy="445" r="4" fill="#f8fafc"/>
+<text x="42" y="485" text-anchor="end">9</text>
+<rect x="60" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,35.7%)"><title>row 9, column 0: 36; evaluations 0</title></rect>
+<rect x="94" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,32.9%)"><title>row 9, column 1: 13; evaluations 0</title></rect>
+<rect x="128" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,29.0%)"><title>row 9, column 2: -18; evaluations 0</title></rect>
+<rect x="162" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,31.5%)"><title>row 9, column 3: 2; evaluations 0</title></rect>
+<rect x="196" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,37.3%)"><title>row 9, column 4: 49; evaluations 0</title></rect>
+<rect x="230" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,27.2%)"><title>row 9, column 5: -33; evaluations 0</title></rect>
+<rect x="264" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,23.1%)"><title>row 9, column 6: -66; evaluations 1</title></rect>
+<circle cx="280" cy="479" r="4" fill="#f8fafc"/>
+<rect x="298" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,27.1%)"><title>row 9, column 7: -34; evaluations 0</title></rect>
+<rect x="332" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,25.8%)"><title>row 9, column 8: -44; evaluations 0</title></rect>
+<rect x="366" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,34.4%)"><title>row 9, column 9: 25; evaluations 0</title></rect>
+<rect x="400" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,22.2%)"><title>row 9, column 10: -73; evaluations 1</title></rect>
+<circle cx="416" cy="479" r="4" fill="#f8fafc"/>
+<rect x="400" y="463" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="434" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,22.9%)"><title>row 9, column 11: -68; evaluations 0</title></rect>
+<rect x="468" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,24.7%)"><title>row 9, column 12: -53; evaluations 1</title></rect>
+<circle cx="484" cy="479" r="4" fill="#f8fafc"/>
+<rect x="502" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,24.0%)"><title>row 9, column 13: -59; evaluations 2</title></rect>
+<circle cx="518" cy="479" r="4" fill="#f8fafc"/>
+<rect x="536" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,45.2%)"><title>row 9, column 14: 113; evaluations 0</title></rect>
+<rect x="570" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,27.7%)"><title>row 9, column 15: -29; evaluations 1</title></rect>
+<circle cx="586" cy="479" r="4" fill="#f8fafc"/>
+<rect x="604" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,28.2%)"><title>row 9, column 16: -25; evaluations 0</title></rect>
+<rect x="638" y="463" width="32" height="32" rx="3" fill="hsl(215,55%,40.2%)"><title>row 9, column 17: 72; evaluations 0</title></rect>
+<text x="42" y="519" text-anchor="end">10</text>
+<rect x="60" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,38.1%)"><title>row 10, column 0: 55; evaluations 0</title></rect>
+<rect x="94" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,35.0%)"><title>row 10, column 1: 30; evaluations 0</title></rect>
+<rect x="128" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,30.9%)"><title>row 10, column 2: -3; evaluations 0</title></rect>
+<rect x="162" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,33.1%)"><title>row 10, column 3: 15; evaluations 0</title></rect>
+<rect x="196" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,38.7%)"><title>row 10, column 4: 60; evaluations 0</title></rect>
+<rect x="230" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,28.3%)"><title>row 10, column 5: -24; evaluations 0</title></rect>
+<rect x="264" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,24.0%)"><title>row 10, column 6: -59; evaluations 0</title></rect>
+<rect x="298" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,27.7%)"><title>row 10, column 7: -29; evaluations 0</title></rect>
+<rect x="332" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,26.2%)"><title>row 10, column 8: -41; evaluations 0</title></rect>
+<rect x="366" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,34.5%)"><title>row 10, column 9: 26; evaluations 0</title></rect>
+<rect x="400" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,22.1%)"><title>row 10, column 10: -74; evaluations 1</title></rect>
+<circle cx="416" cy="513" r="4" fill="#f8fafc"/>
+<rect x="400" y="497" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="434" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,22.5%)"><title>row 10, column 11: -71; evaluations 0</title></rect>
+<rect x="468" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,24.1%)"><title>row 10, column 12: -58; evaluations 0</title></rect>
+<rect x="502" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,23.1%)"><title>row 10, column 13: -66; evaluations 0</title></rect>
+<rect x="536" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,44.1%)"><title>row 10, column 14: 104; evaluations 0</title></rect>
+<rect x="570" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,26.3%)"><title>row 10, column 15: -40; evaluations 0</title></rect>
+<rect x="604" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,26.6%)"><title>row 10, column 16: -38; evaluations 0</title></rect>
+<rect x="638" y="497" width="32" height="32" rx="3" fill="hsl(215,55%,38.3%)"><title>row 10, column 17: 57; evaluations 0</title></rect>
+<text x="42" y="553" text-anchor="end">11</text>
+<rect x="60" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,40.7%)"><title>row 11, column 0: 76; evaluations 0</title></rect>
+<rect x="94" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,37.3%)"><title>row 11, column 1: 49; evaluations 0</title></rect>
+<rect x="128" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,33.0%)"><title>row 11, column 2: 14; evaluations 0</title></rect>
+<rect x="162" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,35.0%)"><title>row 11, column 3: 30; evaluations 0</title></rect>
+<rect x="196" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,40.3%)"><title>row 11, column 4: 73; evaluations 0</title></rect>
+<rect x="230" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,29.7%)"><title>row 11, column 5: -13; evaluations 0</title></rect>
+<rect x="264" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,25.1%)"><title>row 11, column 6: -50; evaluations 1</title></rect>
+<circle cx="280" cy="547" r="4" fill="#f8fafc"/>
+<rect x="298" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,28.6%)"><title>row 11, column 7: -22; evaluations 0</title></rect>
+<rect x="332" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,26.8%)"><title>row 11, column 8: -36; evaluations 0</title></rect>
+<rect x="366" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,34.9%)"><title>row 11, column 9: 29; evaluations 0</title></rect>
+<rect x="400" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,22.2%)"><title>row 11, column 10: -73; evaluations 4</title></rect>
+<circle cx="416" cy="547" r="4" fill="#f8fafc"/>
+<rect x="400" y="531" width="32" height="32" rx="3" fill="none" stroke="#4ade80" stroke-width="3"/>
+<rect x="434" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,22.4%)"><title>row 11, column 11: -72; evaluations 1</title></rect>
+<circle cx="450" cy="547" r="4" fill="#f8fafc"/>
+<rect x="468" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,23.7%)"><title>row 11, column 12: -61; evaluations 0</title></rect>
+<rect x="502" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,22.5%)"><title>row 11, column 13: -71; evaluations 1</title></rect>
+<circle cx="518" cy="547" r="4" fill="#f8fafc"/>
+<rect x="536" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,43.3%)"><title>row 11, column 14: 97; evaluations 0</title></rect>
+<rect x="570" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,25.2%)"><title>row 11, column 15: -49; evaluations 3</title></rect>
+<circle cx="586" cy="547" r="4" fill="#f8fafc"/>
+<rect x="604" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,25.2%)"><title>row 11, column 16: -49; evaluations 1</title></rect>
+<circle cx="620" cy="547" r="4" fill="#f8fafc"/>
+<rect x="638" y="531" width="32" height="32" rx="3" fill="hsl(215,55%,36.7%)"><title>row 11, column 17: 44; evaluations 1</title></rect>
+<circle cx="654" cy="547" r="4" fill="#f8fafc"/>
+<polyline points="144,173 144,207 144,241 144,275 280,309 280,343 280,377 280,411 280,445 416,479 416,513 416,547" fill="none" stroke="#4ade80" stroke-width="2" opacity="0.7"/>
+<text x="28" y="598">RECURSION | red: eliminated here | blue: retained | purple: recurse | gray: inactive</text>
+<text x="28" y="630">Depth 1: 12 active rows; 18 -&gt; 10 columns</text>
+<text x="28" y="665">cols</text>
+<rect x="76" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="87" y="665" text-anchor="middle" class="small">0</text>
+<rect x="100" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="111" y="665" text-anchor="middle" class="small">1</text>
+<rect x="124" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="135" y="665" text-anchor="middle" class="small">2</text>
+<rect x="148" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="159" y="665" text-anchor="middle" class="small">3</text>
+<rect x="172" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="183" y="665" text-anchor="middle" class="small">4</text>
+<rect x="196" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="207" y="665" text-anchor="middle" class="small">5</text>
+<rect x="220" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="231" y="665" text-anchor="middle" class="small">6</text>
+<rect x="244" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="255" y="665" text-anchor="middle" class="small">7</text>
+<rect x="268" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="279" y="665" text-anchor="middle" class="small">8</text>
+<rect x="292" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="303" y="665" text-anchor="middle" class="small">9</text>
+<rect x="316" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="327" y="665" text-anchor="middle" class="small">10</text>
+<rect x="340" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="351" y="665" text-anchor="middle" class="small">11</text>
+<rect x="364" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="375" y="665" text-anchor="middle" class="small">12</text>
+<rect x="388" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="399" y="665" text-anchor="middle" class="small">13</text>
+<rect x="412" y="646" width="22" height="28" rx="3" fill="#b91c1c"/><text x="423" y="665" text-anchor="middle" class="small">14</text>
+<rect x="436" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="447" y="665" text-anchor="middle" class="small">15</text>
+<rect x="460" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="471" y="665" text-anchor="middle" class="small">16</text>
+<rect x="484" y="646" width="22" height="28" rx="3" fill="#2563eb"/><text x="495" y="665" text-anchor="middle" class="small">17</text>
+<text x="28" y="703">rows</text>
+<rect x="76" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="87" y="703" text-anchor="middle" class="small">0</text>
+<rect x="100" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="111" y="703" text-anchor="middle" class="small">1</text>
+<rect x="124" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="135" y="703" text-anchor="middle" class="small">2</text>
+<rect x="148" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="159" y="703" text-anchor="middle" class="small">3</text>
+<rect x="172" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="183" y="703" text-anchor="middle" class="small">4</text>
+<rect x="196" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="207" y="703" text-anchor="middle" class="small">5</text>
+<rect x="220" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="231" y="703" text-anchor="middle" class="small">6</text>
+<rect x="244" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="255" y="703" text-anchor="middle" class="small">7</text>
+<rect x="268" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="279" y="703" text-anchor="middle" class="small">8</text>
+<rect x="292" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="303" y="703" text-anchor="middle" class="small">9</text>
+<rect x="316" y="684" width="22" height="28" rx="3" fill="#2563eb"/><text x="327" y="703" text-anchor="middle" class="small">10</text>
+<rect x="340" y="684" width="22" height="28" rx="3" fill="#7c3aed"/><text x="351" y="703" text-anchor="middle" class="small">11</text>
+<text x="28" y="762">Depth 2: 6 active rows; 10 -&gt; 6 columns</text>
+<text x="28" y="797">cols</text>
+<rect x="76" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="797" text-anchor="middle" class="small">0</text>
+<rect x="100" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="111" y="797" text-anchor="middle" class="small">1</text>
+<rect x="124" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="135" y="797" text-anchor="middle" class="small">2</text>
+<rect x="148" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="159" y="797" text-anchor="middle" class="small">3</text>
+<rect x="172" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="797" text-anchor="middle" class="small">4</text>
+<rect x="196" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="207" y="797" text-anchor="middle" class="small">5</text>
+<rect x="220" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="231" y="797" text-anchor="middle" class="small">6</text>
+<rect x="244" y="778" width="22" height="28" rx="3" fill="#b91c1c"/><text x="255" y="797" text-anchor="middle" class="small">7</text>
+<rect x="268" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="797" text-anchor="middle" class="small">8</text>
+<rect x="292" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="303" y="797" text-anchor="middle" class="small">9</text>
+<rect x="316" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="327" y="797" text-anchor="middle" class="small">10</text>
+<rect x="340" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="351" y="797" text-anchor="middle" class="small">11</text>
+<rect x="364" y="778" width="22" height="28" rx="3" fill="#b91c1c"/><text x="375" y="797" text-anchor="middle" class="small">12</text>
+<rect x="388" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="399" y="797" text-anchor="middle" class="small">13</text>
+<rect x="412" y="778" width="22" height="28" rx="3" fill="#334155"/><text x="423" y="797" text-anchor="middle" class="small">14</text>
+<rect x="436" y="778" width="22" height="28" rx="3" fill="#2563eb"/><text x="447" y="797" text-anchor="middle" class="small">15</text>
+<rect x="460" y="778" width="22" height="28" rx="3" fill="#b91c1c"/><text x="471" y="797" text-anchor="middle" class="small">16</text>
+<rect x="484" y="778" width="22" height="28" rx="3" fill="#b91c1c"/><text x="495" y="797" text-anchor="middle" class="small">17</text>
+<text x="28" y="835">rows</text>
+<rect x="76" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="835" text-anchor="middle" class="small">0</text>
+<rect x="100" y="816" width="22" height="28" rx="3" fill="#2563eb"/><text x="111" y="835" text-anchor="middle" class="small">1</text>
+<rect x="124" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="135" y="835" text-anchor="middle" class="small">2</text>
+<rect x="148" y="816" width="22" height="28" rx="3" fill="#7c3aed"/><text x="159" y="835" text-anchor="middle" class="small">3</text>
+<rect x="172" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="835" text-anchor="middle" class="small">4</text>
+<rect x="196" y="816" width="22" height="28" rx="3" fill="#2563eb"/><text x="207" y="835" text-anchor="middle" class="small">5</text>
+<rect x="220" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="231" y="835" text-anchor="middle" class="small">6</text>
+<rect x="244" y="816" width="22" height="28" rx="3" fill="#7c3aed"/><text x="255" y="835" text-anchor="middle" class="small">7</text>
+<rect x="268" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="835" text-anchor="middle" class="small">8</text>
+<rect x="292" y="816" width="22" height="28" rx="3" fill="#2563eb"/><text x="303" y="835" text-anchor="middle" class="small">9</text>
+<rect x="316" y="816" width="22" height="28" rx="3" fill="#334155"/><text x="327" y="835" text-anchor="middle" class="small">10</text>
+<rect x="340" y="816" width="22" height="28" rx="3" fill="#7c3aed"/><text x="351" y="835" text-anchor="middle" class="small">11</text>
+<text x="28" y="894">Depth 3: 3 active rows; 6 -&gt; 3 columns</text>
+<text x="28" y="929">cols</text>
+<rect x="76" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="929" text-anchor="middle" class="small">0</text>
+<rect x="100" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="111" y="929" text-anchor="middle" class="small">1</text>
+<rect x="124" y="910" width="22" height="28" rx="3" fill="#2563eb"/><text x="135" y="929" text-anchor="middle" class="small">2</text>
+<rect x="148" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="159" y="929" text-anchor="middle" class="small">3</text>
+<rect x="172" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="929" text-anchor="middle" class="small">4</text>
+<rect x="196" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="207" y="929" text-anchor="middle" class="small">5</text>
+<rect x="220" y="910" width="22" height="28" rx="3" fill="#2563eb"/><text x="231" y="929" text-anchor="middle" class="small">6</text>
+<rect x="244" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="255" y="929" text-anchor="middle" class="small">7</text>
+<rect x="268" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="929" text-anchor="middle" class="small">8</text>
+<rect x="292" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="303" y="929" text-anchor="middle" class="small">9</text>
+<rect x="316" y="910" width="22" height="28" rx="3" fill="#2563eb"/><text x="327" y="929" text-anchor="middle" class="small">10</text>
+<rect x="340" y="910" width="22" height="28" rx="3" fill="#b91c1c"/><text x="351" y="929" text-anchor="middle" class="small">11</text>
+<rect x="364" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="375" y="929" text-anchor="middle" class="small">12</text>
+<rect x="388" y="910" width="22" height="28" rx="3" fill="#b91c1c"/><text x="399" y="929" text-anchor="middle" class="small">13</text>
+<rect x="412" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="423" y="929" text-anchor="middle" class="small">14</text>
+<rect x="436" y="910" width="22" height="28" rx="3" fill="#b91c1c"/><text x="447" y="929" text-anchor="middle" class="small">15</text>
+<rect x="460" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="471" y="929" text-anchor="middle" class="small">16</text>
+<rect x="484" y="910" width="22" height="28" rx="3" fill="#334155"/><text x="495" y="929" text-anchor="middle" class="small">17</text>
+<text x="28" y="967">rows</text>
+<rect x="76" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="967" text-anchor="middle" class="small">0</text>
+<rect x="100" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="111" y="967" text-anchor="middle" class="small">1</text>
+<rect x="124" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="135" y="967" text-anchor="middle" class="small">2</text>
+<rect x="148" y="948" width="22" height="28" rx="3" fill="#2563eb"/><text x="159" y="967" text-anchor="middle" class="small">3</text>
+<rect x="172" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="967" text-anchor="middle" class="small">4</text>
+<rect x="196" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="207" y="967" text-anchor="middle" class="small">5</text>
+<rect x="220" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="231" y="967" text-anchor="middle" class="small">6</text>
+<rect x="244" y="948" width="22" height="28" rx="3" fill="#7c3aed"/><text x="255" y="967" text-anchor="middle" class="small">7</text>
+<rect x="268" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="967" text-anchor="middle" class="small">8</text>
+<rect x="292" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="303" y="967" text-anchor="middle" class="small">9</text>
+<rect x="316" y="948" width="22" height="28" rx="3" fill="#334155"/><text x="327" y="967" text-anchor="middle" class="small">10</text>
+<rect x="340" y="948" width="22" height="28" rx="3" fill="#2563eb"/><text x="351" y="967" text-anchor="middle" class="small">11</text>
+<text x="28" y="1026">Depth 4: 1 active rows; 3 -&gt; 1 columns</text>
+<text x="28" y="1061">cols</text>
+<rect x="76" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="1061" text-anchor="middle" class="small">0</text>
+<rect x="100" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="111" y="1061" text-anchor="middle" class="small">1</text>
+<rect x="124" y="1042" width="22" height="28" rx="3" fill="#b91c1c"/><text x="135" y="1061" text-anchor="middle" class="small">2</text>
+<rect x="148" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="159" y="1061" text-anchor="middle" class="small">3</text>
+<rect x="172" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="1061" text-anchor="middle" class="small">4</text>
+<rect x="196" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="207" y="1061" text-anchor="middle" class="small">5</text>
+<rect x="220" y="1042" width="22" height="28" rx="3" fill="#2563eb"/><text x="231" y="1061" text-anchor="middle" class="small">6</text>
+<rect x="244" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="255" y="1061" text-anchor="middle" class="small">7</text>
+<rect x="268" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="1061" text-anchor="middle" class="small">8</text>
+<rect x="292" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="303" y="1061" text-anchor="middle" class="small">9</text>
+<rect x="316" y="1042" width="22" height="28" rx="3" fill="#b91c1c"/><text x="327" y="1061" text-anchor="middle" class="small">10</text>
+<rect x="340" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="351" y="1061" text-anchor="middle" class="small">11</text>
+<rect x="364" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="375" y="1061" text-anchor="middle" class="small">12</text>
+<rect x="388" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="399" y="1061" text-anchor="middle" class="small">13</text>
+<rect x="412" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="423" y="1061" text-anchor="middle" class="small">14</text>
+<rect x="436" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="447" y="1061" text-anchor="middle" class="small">15</text>
+<rect x="460" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="471" y="1061" text-anchor="middle" class="small">16</text>
+<rect x="484" y="1042" width="22" height="28" rx="3" fill="#334155"/><text x="495" y="1061" text-anchor="middle" class="small">17</text>
+<text x="28" y="1099">rows</text>
+<rect x="76" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="87" y="1099" text-anchor="middle" class="small">0</text>
+<rect x="100" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="111" y="1099" text-anchor="middle" class="small">1</text>
+<rect x="124" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="135" y="1099" text-anchor="middle" class="small">2</text>
+<rect x="148" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="159" y="1099" text-anchor="middle" class="small">3</text>
+<rect x="172" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="183" y="1099" text-anchor="middle" class="small">4</text>
+<rect x="196" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="207" y="1099" text-anchor="middle" class="small">5</text>
+<rect x="220" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="231" y="1099" text-anchor="middle" class="small">6</text>
+<rect x="244" y="1080" width="22" height="28" rx="3" fill="#2563eb"/><text x="255" y="1099" text-anchor="middle" class="small">7</text>
+<rect x="268" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="279" y="1099" text-anchor="middle" class="small">8</text>
+<rect x="292" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="303" y="1099" text-anchor="middle" class="small">9</text>
+<rect x="316" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="327" y="1099" text-anchor="middle" class="small">10</text>
+<rect x="340" y="1080" width="22" height="28" rx="3" fill="#334155"/><text x="351" y="1099" text-anchor="middle" class="small">11</text>
+</svg>

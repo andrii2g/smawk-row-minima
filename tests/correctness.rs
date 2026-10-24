@@ -67,21 +67,63 @@ fn ties_boundaries_and_non_monge() {
 
 #[test]
 fn exhaustive_small_totally_monotone_matrices() {
-    // All 3^6 two-row, three-column matrices, including ties and non-Monge inputs.
-    for mut code in 0..729 {
-        let mut cells = vec![vec![0; 3]; 2];
-        for row in &mut cells {
-            for value in row {
-                *value = code % 3;
-                code /= 3;
+    // Enumerate all ternary matrices up to 3x3, then independently filter
+    // using the defining implication for every pair of rows and columns.
+    for rows in 1..=3 {
+        for mut code in 0..3_i128.pow(rows as u32 * 3) {
+            let mut cells = vec![vec![0; 3]; rows];
+            for row in &mut cells {
+                for value in row {
+                    *value = code % 3;
+                    code /= 3;
+                }
+            }
+            let tm = (0..rows).all(|r| {
+                (r + 1..rows).all(|s| {
+                    (0..3).all(|a| {
+                        (a + 1..3).all(|b| cells[r][a] <= cells[r][b] || cells[s][a] > cells[s][b])
+                    })
+                })
+            });
+            if tm {
+                check(&Dense(cells));
             }
         }
-        let tm = (0..3)
-            .all(|a| (a + 1..3).all(|b| cells[0][a] <= cells[0][b] || cells[1][a] > cells[1][b]));
-        if tm {
-            check(&Dense(cells));
+    }
+}
+
+#[test]
+fn reported_evaluations_match_actual_oracle_calls() {
+    struct Counted {
+        matrix: MongeMatrix,
+        calls: std::cell::Cell<usize>,
+    }
+    impl Matrix for Counted {
+        fn rows(&self) -> usize {
+            self.matrix.rows()
+        }
+        fn cols(&self) -> usize {
+            self.matrix.cols()
+        }
+        fn at(&self, r: usize, c: usize) -> i128 {
+            self.calls.set(self.calls.get() + 1);
+            self.matrix.at(r, c)
         }
     }
+    let matrix = Counted {
+        matrix: MongeMatrix::seeded(31, 53, 42),
+        calls: std::cell::Cell::new(0),
+    };
+    let fast = smawk(&matrix).unwrap();
+    assert_eq!(fast.metrics.evaluations, matrix.calls.replace(0));
+    let brute = brute_force(&matrix).unwrap();
+    assert_eq!(brute.metrics.evaluations, matrix.calls.get());
+    assert_eq!(fast.minima, brute.minima);
+}
+
+#[test]
+fn monge_check_reports_overflow() {
+    assert!(is_monge(&Dense(vec![vec![i128::MAX; 2]; 2])).is_err());
 }
 
 #[test]
