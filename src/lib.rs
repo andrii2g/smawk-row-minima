@@ -2,6 +2,7 @@
 pub mod matrix;
 pub mod search;
 pub mod smawk;
+pub mod svg;
 pub mod trace;
 pub use matrix::{Matrix, MongeMatrix, is_monge};
 pub use search::{Metrics, SearchError, SearchResult, brute_force};
