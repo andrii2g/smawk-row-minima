@@ -1,0 +1,8 @@
+[package]
+name = "smawk-row-minima"
+version = "0.1.0"
+edition = "2024"
+description = "Instrumented SMAWK row-minimum search with SVG explanations"
+license = "MIT"
+
+[dependencies]
